@@ -10,10 +10,13 @@
 		B0180A301A8822B60016F17F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0180A2F1A8822B60016F17F /* main.m */; };
 		B0180A331A8822B60016F17F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0180A321A8822B60016F17F /* AppDelegate.m */; };
 		B0180A361A8822B60016F17F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0180A351A8822B60016F17F /* ViewController.m */; };
-		B0180A391A8822B60016F17F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0180A371A8822B60016F17F /* Main.storyboard */; };
 		B0180A3B1A8822B60016F17F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0180A3A1A8822B60016F17F /* Images.xcassets */; };
-		B0180A3E1A8822B60016F17F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0180A3C1A8822B60016F17F /* LaunchScreen.xib */; };
 		B0180A4A1A8822B60016F17F /* PhotoMappingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0180A491A8822B60016F17F /* PhotoMappingTests.m */; };
+		B0180A541A8834940016F17F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0180A531A8834940016F17F /* MapKit.framework */; };
+		B0180A561A88349B0016F17F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0180A551A88349B0016F17F /* CoreLocation.framework */; };
+		B0180A581A8834A30016F17F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0180A571A8834A30016F17F /* UIKit.framework */; };
+		B0180A5A1A8834AA0016F17F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0180A591A8834AA0016F17F /* Foundation.framework */; };
+		B0180A5E1A883F050016F17F /* target.png in Resources */ = {isa = PBXBuildFile; fileRef = B0180A5D1A883F050016F17F /* target.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +37,15 @@
 		B0180A321A8822B60016F17F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B0180A341A8822B60016F17F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B0180A351A8822B60016F17F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B0180A381A8822B60016F17F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0180A3A1A8822B60016F17F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B0180A3D1A8822B60016F17F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B0180A431A8822B60016F17F /* PhotoMappingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoMappingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0180A481A8822B60016F17F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0180A491A8822B60016F17F /* PhotoMappingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoMappingTests.m; sourceTree = "<group>"; };
+		B0180A531A8834940016F17F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B0180A551A88349B0016F17F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B0180A571A8834A30016F17F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B0180A591A8834AA0016F17F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B0180A5D1A883F050016F17F /* target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = target.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0180A5A1A8834AA0016F17F /* Foundation.framework in Frameworks */,
+				B0180A581A8834A30016F17F /* UIKit.framework in Frameworks */,
+				B0180A561A88349B0016F17F /* CoreLocation.framework in Frameworks */,
+				B0180A541A8834940016F17F /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +73,10 @@
 		B0180A211A8822B60016F17F = {
 			isa = PBXGroup;
 			children = (
+				B0180A591A8834AA0016F17F /* Foundation.framework */,
+				B0180A571A8834A30016F17F /* UIKit.framework */,
+				B0180A551A88349B0016F17F /* CoreLocation.framework */,
+				B0180A531A8834940016F17F /* MapKit.framework */,
 				B0180A2C1A8822B60016F17F /* PhotoMapping */,
 				B0180A461A8822B60016F17F /* PhotoMappingTests */,
 				B0180A2B1A8822B60016F17F /* Products */,
@@ -81,13 +95,12 @@
 		B0180A2C1A8822B60016F17F /* PhotoMapping */ = {
 			isa = PBXGroup;
 			children = (
+				B0180A5D1A883F050016F17F /* target.png */,
 				B0180A311A8822B60016F17F /* AppDelegate.h */,
 				B0180A321A8822B60016F17F /* AppDelegate.m */,
 				B0180A341A8822B60016F17F /* ViewController.h */,
 				B0180A351A8822B60016F17F /* ViewController.m */,
-				B0180A371A8822B60016F17F /* Main.storyboard */,
 				B0180A3A1A8822B60016F17F /* Images.xcassets */,
-				B0180A3C1A8822B60016F17F /* LaunchScreen.xib */,
 				B0180A2D1A8822B60016F17F /* Supporting Files */,
 			);
 			path = PhotoMapping;
@@ -199,9 +212,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0180A391A8822B60016F17F /* Main.storyboard in Resources */,
-				B0180A3E1A8822B60016F17F /* LaunchScreen.xib in Resources */,
 				B0180A3B1A8822B60016F17F /* Images.xcassets in Resources */,
+				B0180A5E1A883F050016F17F /* target.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +254,6 @@
 			targetProxy = B0180A441A8822B60016F17F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		B0180A371A8822B60016F17F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B0180A381A8822B60016F17F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B0180A3C1A8822B60016F17F /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B0180A3D1A8822B60016F17F /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B0180A4B1A8822B60016F17F /* Debug */ = {
@@ -346,8 +339,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PhotoMapping/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -356,8 +351,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PhotoMapping/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
